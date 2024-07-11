@@ -41,7 +41,7 @@ export default function Form() {
       const reviewInterval = recentReview - previousReview;
       const numberDays = Math.floor(reviewInterval / (1000 * 60 * 60 * 24));
       const differenceBetweenReviews = recentKilometerNumber - previousKilometerNumber;
-      const mileageExceeded = recentKilometer - 11000;
+      const mileageExceeded = previousKilometerNumber != 0 ? differenceBetweenReviews : recentKilometer - 11000;
 
       if (previousKilometerNumber > recentKilometerNumber) {
         setResultado(
@@ -94,7 +94,7 @@ export default function Form() {
       const reviewInterval = recentReview - previousReview;
       const numberDays = Math.floor(reviewInterval / (1000 * 60 * 60 * 24));
       const differenceBetweenReviews = recentKilometerNumber - previousKilometerNumber;
-      const mileageExceeded = recentKilometer - 13000;
+      const mileageExceeded = previousKilometerNumber != 0 ? differenceBetweenReviews : recentKilometer - 13000;
 
         if (previousKilometerNumber > recentKilometerNumber) {
           setResultado(
@@ -148,7 +148,7 @@ export default function Form() {
       const reviewInterval = recentReview - previousReview;
       const numberDays = Math.floor(reviewInterval / (1000 * 60 * 60 * 24));
       const differenceBetweenReviews = recentKilometerNumber - previousKilometerNumber;
-      const mileageExceeded = recentKilometer - 21000;
+      const mileageExceeded = previousKilometerNumber != 0 ? differenceBetweenReviews : recentKilometer - 21000;
 
         if (previousKilometerNumber > recentKilometerNumber) {
           setResultado(
