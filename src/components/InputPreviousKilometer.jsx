@@ -13,6 +13,7 @@ export default function InputPreviousKilometer(props) {
         }
         onChange={props.event}
         disabled={props.disabled}
+        required
       ></input>
     </>
   );

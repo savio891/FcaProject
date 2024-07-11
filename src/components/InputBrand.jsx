@@ -6,7 +6,7 @@ export default function InputBrand(props) {
   return (
     <>
       <label className="mr-sm-2">Escolha a marca/combustível</label>
-      <select value={props.value} onChange={props.event}>
+      <select value={props.value} onChange={props.event} required>
         <option defaultValue={props.selected}>
           Selecione...
         </option>

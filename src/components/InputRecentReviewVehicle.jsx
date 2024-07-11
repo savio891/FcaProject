@@ -8,6 +8,7 @@ export default function InputRecentReviewVehicle(props) {
         type="date"
         value={props.value}
         onChange={props.event}
+        required
       ></input>
     </>
   );

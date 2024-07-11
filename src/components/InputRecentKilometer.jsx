@@ -12,6 +12,7 @@ export default function InputRecentKilometer(props) {
           ["e", "E", "+", "-"].includes(evt.key) && evt.preventDefault()
         }
         onChange={props.event}
+        required
       ></input>
     </>
   );
