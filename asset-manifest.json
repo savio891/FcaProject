@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/FcaProject/static/css/main.90488334.css",
+    "main.js": "/FcaProject/static/js/main.225341b7.js",
+    "static/js/453.0615efb8.chunk.js": "/FcaProject/static/js/453.0615efb8.chunk.js",
+    "static/media/background.jpg": "/FcaProject/static/media/background.b4224d059536aff7a2f2.jpg",
+    "index.html": "/FcaProject/index.html",
+    "main.90488334.css.map": "/FcaProject/static/css/main.90488334.css.map",
+    "main.225341b7.js.map": "/FcaProject/static/js/main.225341b7.js.map",
+    "453.0615efb8.chunk.js.map": "/FcaProject/static/js/453.0615efb8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90488334.css",
+    "static/js/main.225341b7.js"
+  ]
+}
